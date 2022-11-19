@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap: CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!--Iconos: Bootstrap-->
+
+    <title>EGCO Fundation - Company</title>
+    <link rel="stylesheet" href="css/compañiaStylesheet.css">
+</head>
+
+<body>
+    <nav id="navBar" class="nav">
+        <!--NAV - Barra de navegación -->
+        <div id="navBarInterior" class="container-fluid bg-dark bg-gradient" align="center">
+            <img src="imgs/EGCOfundationLogoLight.png" width="120px" id="navBarLogo">
+            <button id="navBarListBtn"><img src="imgs/listIcon.png" width="40px"></button>
+        </div>
+        <div id="navBarBottomWLine"></div>
+        <div id="navBarList" class="bg-dark bg-gradient">
+            <!---->
+            <div id="navBarListText">
+                <div id="navBarBottomWLine"></div>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="servicios.html">SERVICIOS</a></li>
+                    <li class="active"><a href="compañia.html">COMPAÑIA</a></li>
+                </ul>
+                <div id="navBarBottomWLine"></div>
+            </div>
+        </div>
+        <script src="js/navBarList.js"></script>
+    </nav>
+    <!--NAV - Barra de navegación -->
+
+    <div id="bg"> <!-- Contenido de la página -->
+        <div id="bgHeadings">
+            <img src="imgs/EGCOfundationLogoLight.png" width="40%">
+        </div>
+    </div>
+
+    <div id="columnaH">
+        <img src="imgs/Planeta1.jpg" width="400px" class="col-4 rounded d-inline float-start card shadow" id="darklogo">
+        <div class="col-8 float-end">
+            <br><br>
+            <h1>Nuestra Historia</h1><br>
+            <p>
+                Esta fundación comienza con la idea del fundador de <b>E.G.C.O.</b>, que pretendía iniciar
+                investigaciones sobre las
+                ciencias sociales, quería estudiar a la sociedad. Además de que él, quería crear una energía totalmente
+                renovable,
+                barata, segura y que no afectara al medio ambiente.
+            </p>
+        </div>
+    </div>
+    <div id="columnaH">
+        <div class="col-8 float-start">
+            <br><br>
+            <h1>Mr. Leonardo El' Pre</h1><br>
+            <p>
+                <b>El dueño y creador de esta fundación.</b> Desde la infancia el se interesó por querer cambiar el
+                mundo como lo
+                conocemos, siempre aneló poder hacer algo por la humanidad. Lo logró. Los expertos dicen que a su edad,
+                con todo
+                lo que ha logrado, Leo puede tener un coeficiente intelectual de más de 260 puntos, convirtiéndose así,
+                en el
+                hombre más inteligente del planeta.
+            </p>
+        </div>
+        <img src="imgs/fundador.png" width="400px" class="col-4 rounded d-inline float-end card shadow">
+    </div>
+    <div id="columnaH">
+        <img src="imgs/Ciudad4.jpg" width="400px" class="col-4 rounded d-inline float-start card shadow" id="darklogo">
+        <div class="col-8 float-end">
+            <br><br><br>
+            <h1>El presente</h1><br>
+            <p>
+                Actualmente, tenemos plantas de energía en casi todos los países y aún seguimos expandiéndonos. Nuestro
+                objetivo
+                en el <b>presente</b>, es expandirnos más para que en el futuro, podamos abastecer la demanda de
+                nuestros servicios que
+                creemos que serán de mucha utilidad para la humanidad.
+            </p>
+        </div>
+    </div>
+    <div id="columnaH">
+        <div class="col-8 float-start">
+            <h1>El futuro, es color azul</h1><br>
+            <p>
+                Planeamos que en el futuro el <b>95%</b> de la energía usada en el planeta sea de la generada nuestras
+                plantas,
+                así podríamos generar recursos para otros de nuestros objetivos, como las investigaciones sobre el
+                espacio, el
+                problema de la falta de espacio en la Tierra, la falta de alimentos, el calentamiento global, entre
+                otras.
+            </p>
+        </div>
+        <img src="imgs/Ciudad5.jpg" width="400px" class="col-4 rounded d-inline float-end card shadow">
+    </div>
+    <div id="columnaH">
+        <div class="card shadow">
+            <h1>Contacto</h1><br>
+            <form id="formulario" class="mb-3 needs-validation" novalidate>
+                <div class="position-relative">
+                    <h3 class="bi bi-person form-label"> Nombre</h3>
+                    <input class="form-control" placeholder="ej: Javier" required>
+                    <div class="valid-tooltip">Nombre aceptado</div>
+                    <div class="invalid-tooltip">Es necesario poner nombre</div>
+                </div>
+                <div class="position-relative">
+                    <h3 class="bi bi-envelope form-label"> Email</h3>
+                    <input class="form-control" placeholder="ej: javierm@gmail.com" required>
+                    <div class="valid-tooltip">Email aceptado</div>
+                    <div class="invalid-tooltip">Es necesario poner correo</div>
+                </div>
+                <div class="position-relative">
+                    <h3 class="bi bi-chat-right-dots form-label"> Mensaje</h3>
+                    <input class="form-control" placeholder="ej: hola" required>
+                    <div class="valid-tooltip">Mensaje aceptado</div>
+                    <div class="invalid-tooltip">Es necesario poner un mensaje</div>
+                </div>
+                <button class="col-12 btn btn-primary d-flex justify-content-between" type="submit">
+                    Enviar<i class="bi bi-cursor"></i>
+                </button>
+            </form>
+            <script src="js/formulario.js"></script>
+        </div>
+    </div> <!-- Contenido de la página End -->
+
+    <footer id="footer" class="bg-dark bg-gradient">
+        <!-- FOOTER - Pie de página -->
+        <div id="box" align="end">
+            <img src="imgs/EGCOfundationLogoLight.png" width="150px">
+        </div>
+        <div id="box" align="center">
+            <a href="compañia.html">SOBRE NOSOTROS</a>
+        </div>
+        <div id="box">
+            <a href="servicios.html">NUESTROS SERVICIOS</a>
+        </div>
+    </footer> <!-- FOOTER - Pie de página -->
+
+    <!-- Bootstrap: Sección JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap: CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"> <!--Iconos: Bootstrap-->
+    
+    <title>EGCO Fundation - Services</title>
+    <link rel="stylesheet" href="css/compañiaStylesheet.css">
+</head>
+
+<body class="bg-primary bg-gradient">
+    <nav id="navBar" class="nav"> <!--NAV - Barra de navegación -->
+        <div id="navBarInterior" class="container-fluid bg-dark bg-gradient" align="center">
+            <img src="imgs/EGCOfundationLogoLight.png" width="120px" id="navBarLogo">
+            <button id="navBarListBtn"><img src="imgs/listIcon.png" width="40px"></button>
+        </div>
+        <div id="navBarBottomWLine"></div>
+        <div id="navBarList" class="bg-dark bg-gradient"> <!---->
+            <div id="navBarListText">
+                <div id="navBarBottomWLine"></div>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li class="active"><a href="servicios.html">SERVICIOS</a></li>
+                    <li><a href="compañia.html">COMPAÑIA</a></li>
+                </ul>
+                <div id="navBarBottomWLine"></div>
+            </div>
+        </div>
+        <script src="js/navBarList.js"></script>
+    </nav> <!--NAV - Barra de navegación -->
+
+    <br><br><br><br><div id="Servicios" class="p-5">
+        <div class="container-fluid rounded-5 shadow bg-light">
+            <h1 class="m-4 pt-4">SERVICIOS</h1>
+            <div class="row p-2">
+                <br>
+                <div class="col card shadow p-3 mb-2 m-3 align-items-center rounded-4 servicio" align="center">
+                    <img src="imgs/tren.jpg" class="rounded shadow" width="80%"><br>
+                    <h3>Tren 042-H</h3>
+                    <p>
+                        Este tren es uno de nuestros más innovadores inventos, funciona por electromagnetismo, es el más rápido
+                        del mundo. Actualmente, nos encontramos construyendo estaciones por todo el mundo.
+                    </p>
+                </div>
+                <div class="col card shadow p-3 mb-2 m-3 align-items-center rounded-4 servicio" align="center">
+                    <img src="imgs/coche_autonomo.jpg" class="rounded shadow" width="80%"><br>
+                    <h3>Coches Autónomos</h3>
+                    <p>
+                        Nuestras investigaciones en inteligencia artificial, nos han permitido crear los primeros coches totalmente
+                        autónomos. No son contaminantes, lo que quiere decir, que podrían sustituir a los automóviles comunes.
+                    </p>
+                </div>
+                <div class="col card shadow p-3 mb-2 m-3 align-items-center rounded-4 servicio" align="center">
+                    <img src="imgs/planta de energia.jpg" class="rounded shadow" width="80%"><br>
+                    <h3>Energía 366-0</h3>
+                    <p>
+                        La nueva energía que revolucionará al mundo, es barata, segura y no contaminante. Es una energía sustentable
+                        generada en nuestras plantas de energía repartidas por todo el mundo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><div id="Productos" class="p-5">
+        <div class="container-fluid rounded-5 shadow bg-light">
+            <h1 class="m-4 pt-4">PRODUCTOS</h1>
+            <div class="row p-2">
+                <br>
+                <div class="col card shadow p-3 mb-2 m-3 align-items-center rounded-4 servicio" align="center">
+                    <img src="imgs/bocinas.png" class="rounded shadow" width="80%"><br>
+                    <h3>Asistente virtual</h3>
+                    <p>
+                        Éste es un asistente que puede controlar la mayoría de electrónicos en tu hogar, aún esta en desarrollo.
+                        Es por eso que no tiene nombre, por ahora. Es muy útil y avanzado.
+                    </p>
+                </div>
+                <div class="col card shadow p-3 mb-2 m-3 align-items-center rounded-4 servicio" align="center">
+                    <img src="imgs/tableta.jpg" class="rounded shadow" width="80%"><br>
+                    <h3>Tb-CH3</h3>
+                    <p>
+                        La nueva generación de computadoras portátiles esta llegando a todas nuestras tiendas EGCO Technology.
+                        La puedes encontrar con distintos diseños para cada gusto.
+                    </p>
+                </div>
+                <div class="col card shadow p-3 mb-2 m-3 align-items-center rounded-4 servicio" align="center">
+                    <img src="imgs/telefono.jpg" class="rounded shadow" width="80%"><br>
+                    <h3>Mb-AH2</h3>
+                    <p>
+                        Esta nueva generación de teléfonos facilita todas las tareas que puedes hacer con un móvil. Los puedes
+                        encontrar en las tiendas EGCO Technology, que por ahora están repartidas por todo Europa, América, Asia
+                        y Oceanía.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="bg-dark bg-gradient"> <!-- FOOTER - Pie de página -->
+        <div id="box" align="end">
+            <img src="imgs/EGCOfundationLogoLight.png" width="150px">
+        </div>
+        <div id="box" align="center">
+            <a href="compañia.html">SOBRE NOSOTROS</a>
+        </div>
+        <div id="box">
+            <a href="servicios.html">NUESTROS SERVICIOS</a>
+        </div>
+    </footer> <!-- FOOTER - Pie de página -->
+
+    <!-- Bootstrap: Sección JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+</html>
